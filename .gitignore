@@ -1,0 +1,6 @@
+.idea/
+venv/
+*.info
+*.txt
+*.todo
+*.ini
