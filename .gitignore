@@ -4,3 +4,4 @@ venv/
 *.txt
 *.todo
 *.ini
+*.json
