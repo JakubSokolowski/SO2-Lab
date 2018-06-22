@@ -1,3 +1,9 @@
+#!/usr/bin/python
+# coding=UTF8
+# Zadanie U1
+# Jakub Sokołowski
+# 08.06.2018 11:15 TP
+#
 import re
 import datetime
 import os
@@ -30,7 +36,7 @@ def celc_to_far(filename):
 
     whole_file = ""
     for line in open(filename):
-        whole_file += re.sub(r"(\+)(\d{1,4}.\d)*(°)(C)",r"\1" + r"\2" +r"\3F",line)
+        whole_file += re.sub(r"(\+)(\d{1,4}.\d)*(°)(C)" ,r"\1" + r"\2" +r"\3F",line)
 
     for match in matches:
         whole_file = whole_file.replace(match.group(2), str(to_far(match.group(2))))

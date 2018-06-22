@@ -1,3 +1,10 @@
+#!/usr/bin/python
+#
+# Zadanie T1
+# Jakub Sokolowski
+# 08.06.2018 11:15 TP
+#
+
 import re
 import sys
 
