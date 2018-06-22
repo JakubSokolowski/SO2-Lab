@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/python
 #
 # Zadanie 45
 # Jakub Sokołowski
